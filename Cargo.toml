@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-userfaultfd = { git = "https://github.com/codesandbox/userfaultfd-rs.git", rev = "b11a187b5743847dda76ed8df5419c3607d21375", features = [
+userfaultfd = { git = "https://github.com/codesandbox/userfaultfd-rs.git", rev = "c1d3c34354e08abb0cc3126227a3fa0b491968db", features = [
   "linux5_7",
 ] }
 nix = "=0.23.1" # pin to the same one as userfaultfd
